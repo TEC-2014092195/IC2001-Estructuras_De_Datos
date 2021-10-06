@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<countries>
+    <identifier>name</identifier>
+    <name>Countries</name>
+    <items>
+        <name>Africa</name>
+        <type>continent</type>
+        <children>
+            <name>Egypt</name>
+            <type>country</type>
+        </children>
+        <children>
+            <name>Kenya</name>
+            <type>country</type>
+            <children>
+                <name>Nairobi</name>
+                <type>city</type>
+				<children>
+					<name>PruebaNivel4</name>
+					<type>pueblo</type>
+					<children>
+						<name>PruebaNivel5</name>
+						<type>barrio</type>
+					</children>
+				</children>
+            </children>
+            <children>
+                <name>Mombasa</name>
+                <type>city</type>
+            </children>
+        </children>
+        <children>
+            <name>Sudan</name>
+            <type>country</type>
+            <children>
+                <name>Khartoum</name>
+                <type>city</type>
+            </children>
+        </children>
+    </items>
+    <items>
+        <name>Asia</name>
+        <type>continent</type>
+        <children>
+            <name>China</name>
+            <type>country</type>
+        </children>
+        <children>
+            <name>India</name>
+            <type>country</type>
+        </children>
+        <children>
+            <name>Russia</name>
+            <type>country</type>
+        </children>
+        <children>
+            <name>Mongolia</name>
+            <type>country</type>
+        </children>
+    </items>
+    <items>
+        <name>Australia</name>
+        <type>continent</type>
+        <population>21 million</population>
+        <children>
+            <name>Commonwealth of Australia</name>
+            <type>country</type>
+            <population>21 million</population>
+        </children>
+    </items>
+    <items>
+        <name>Europe</name>
+        <type>continent</type>
+        <children>
+            <name>Germany</name>
+            <type>country</type>
+        </children>
+        <children>
+            <name>France</name>
+            <type>country</type>
+        </children>
+        <children>
+            <name>Spain</name>
+            <type>country</type>
+        </children>
+        <children>
+            <name>Italy</name>
+            <type>country</type>
+        </children>
+    </items>
+    <items>
+        <name>North America</name>
+        <type>continent</type>
+        <children>
+            <name>Mexico</name>
+            <type>country</type>
+            <population>108 million</population>
+            <area>1,972,550 sq km</area>
+            <children>
+                <name>Mexico City</name>
+                <type>city</type>
+                <population>19 million</population>
+                <timezone>-6 UTC</timezone>
+            </children>
+            <children>
+                <name>Guadalajara</name>
+                <type>city</type>
+                <population>4 million</population>
+                <timezone>-6 UTC</timezone>
+            </children>
+        </children>
+        <children>
+            <name>Canada</name>
+            <type>country</type>
+            <population>33 million</population>
+            <area>9,984,670 sq km</area>
+            <children>
+                <name>Ottawa</name>
+                <type>city</type>
+                <population>0.9 million</population>
+                <timezone>-5 UTC</timezone>
+            </children>
+            <children>
+                <name>Toronto</name>
+                <type>city</type>
+                <population>2.5 million</population>
+                <timezone>-5 UTC</timezone>
+            </children>
+        </children>
+        <children>
+            <name>United States of America</name>
+            <type>country</type>
+        </children>
+    </items>
+    <items>
+        <name>South America</name>
+        <type>continent</type>
+        <children>
+            <name>Brazil</name>
+            <type>country</type>
+            <population>186 million</population>
+        </children>
+        <children>
+            <name>Argentina</name>
+            <type>country</type>
+            <population>40 million</population>
+        </children>
+    </items>
+</countries>
